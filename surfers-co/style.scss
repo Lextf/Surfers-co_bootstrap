@@ -1,0 +1,376 @@
+html {
+    overflow-x: hidden;
+    body {
+        background-image: url(./images/Hero.jpg);
+        height: auto;
+        background-repeat: no-repeat;
+        #hero {
+            //header
+            header {
+                .bg-light {
+                    background-color: transparent !important;
+                    .container {
+                        .navbar-brand {
+                            font-family: 'Montserrat', sans-serif;
+                            font-size: 2em;
+                            font-weight: bolder;
+                        }
+                        .nav-item {
+                            a {
+                                font-family: 'Monserrat', sans-serif;
+                                font-size: 1em;
+                                font-weight: bold;
+                            }
+                        }
+                        .navbar-collapse {
+                            padding-left: 18vh;
+                        }
+                        .navbar-text {
+                            ul {
+                                display: flex;
+                                justify-content: space-around;
+                                list-style: none;
+                                width: 30%;
+                                i {
+                                    margin: 10px;
+                                    padding: 10px;
+                                    background-color: black;
+                                    color: white;
+                                    border-radius: 20px;
+                                    font-size: 1.1em
+                                }
+                                .fa-facebook-f {
+                                    padding-left: 15px;
+                                    padding-right: 15px;
+                                }
+                            }
+                        }
+                    }
+                }
+                #bigtitle {
+                    font-family: 'Playfair Display', serif;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    padding-top: 10vh;
+                    #title {
+                        font-weight: bold;
+                        letter-spacing: 2px;
+                    }
+                    #subtitle {
+                        color: white;
+                        font-size: 1.2em;
+                        letter-spacing: 1px;
+                    }
+                }
+            }
+        }
+        //fin de Header
+        //Boards
+        .container {
+            .col-10 {
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                padding: 0;
+                margin-top: 15vh;
+                background-color: white;
+                display: flex;
+                #boardname {
+                    text-align: left;
+                    padding-top: 3vh;
+                    font-size: 1.5em;
+                    font-weight: bold;
+                }
+                #rating {
+                    .fas {
+                        color: #ffd900;
+                        padding-bottom: 5vh;
+                    }
+                }
+                #buttons {
+                    display: flex;
+                    justify-content: space-between;
+                    padding-top: 3vh;
+                    border-bottom: #a0a0a0;
+                    padding: 0;
+                    ul {
+                        display: flex;
+                        list-style: none;
+                        width: 70%;
+                        justify-content: space-between;
+                        padding: 0;
+                    }
+                }
+                #price {
+                    p {
+                        font-family: 'Montserrat', sans-serif;
+                        font-weight: bolder;
+                        padding: 2vh;
+                        padding-left: 0;
+                        padding-top: 4.3vh;
+                        font-size: 2em;
+                    }
+                }
+            }
+        }
+        // Fin de Boards
+        //About Us
+        #aboutus {
+            #aboutustitle {
+                font-family: 'Montserrat', sans-serif;
+                font-size: 200px;
+                font-weight: bolder;
+                opacity: 0.04;
+                padding-top: 5vh;
+                margin-bottom: 0;
+                padding-bottom: -10vh;
+            }
+            #divabsolute {
+                position: relative;
+                #textaboutus {
+                    position: absolute;
+                    top: 50%;
+                    background-color: white;
+                    padding-right: 8vh;
+                    h3 {
+                        padding-top: 10vh;
+                    }
+                    p {
+                        font-family: 'Playfair Display';
+                        font-size: 1.5em;
+                        a {
+                            font-family: 'Montserrat', sans-serif;
+                            font-size: 0.8em;
+                        }
+                    }
+                }
+                #absoluteimage {
+                    position: absolute;
+                    left: 105%;
+                    top: 45%;
+                }
+            }
+        }
+        // Fin de Boards
+        // Our Team
+        #ourteam {
+            padding-top: 400px;
+            h1 {
+                font-family: 'Montserrat', sans-serif;
+                font-size: 200px;
+                font-weight: bolder;
+                opacity: 0.04;
+                padding-top: 5vh;
+                margin-bottom: 0;
+                padding-bottom: -10vh;
+            }
+            #cards {
+                margin-bottom: 20vh;
+                .profile-card-3 {
+                    font-family: 'Open Sans', Arial, sans-serif;
+                    position: relative;
+                    float: left;
+                    overflow: hidden;
+                    width: 100%;
+                    text-align: center;
+                    height: 368px;
+                    border: none;
+                }
+                .profile-card-3 .background-block {
+                    float: left;
+                    width: 100%;
+                    height: 200px;
+                    overflow: hidden;
+                }
+                .profile-card-3 .background-block .background {
+                    width: 100%;
+                    vertical-align: top;
+                    opacity: 0.9;
+                    -webkit-filter: blur(0.5px);
+                    filter: blur(0.5px);
+                    -webkit-transform: scale(1.8);
+                    transform: scale(2.8);
+                }
+                .profile-card-3 .card-content {
+                    width: 100%;
+                    padding: 15px 25px;
+                    color: #232323;
+                    float: left;
+                    background: #efefef;
+                    height: 50%;
+                    border-radius: 0 0 5px 5px;
+                    position: relative;
+                    z-index: 9999;
+                    h2 {
+                        color: #66d0ff;
+                        small {
+                            color: #a3a3a3;
+                        }
+                    }
+                    .location-block {
+                        color: #a3a3a3;
+                    }
+                }
+                .profile-card-3 .card-content::before {
+                    content: '';
+                    background: #efefef;
+                    width: 120%;
+                    height: 100%;
+                    left: 11px;
+                    bottom: 51px;
+                    position: absolute;
+                    z-index: -1;
+                    transform: rotate(-13deg);
+                }
+                .profile-card-3 .profile {
+                    border-radius: 50%;
+                    position: absolute;
+                    bottom: 50%;
+                    left: 50%;
+                    max-width: 100px;
+                    opacity: 1;
+                    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+                    border: 2px solid rgba(255, 255, 255, 1);
+                    -webkit-transform: translate(-50%, 0%);
+                    transform: translate(-50%, 0%);
+                    z-index: 99999;
+                }
+                .profile-card-3 h2 {
+                    margin: 0 0 5px;
+                    font-weight: 600;
+                    font-size: 25px;
+                }
+                .profile-card-3 h2 small {
+                    display: block;
+                    font-size: 15px;
+                    margin-top: 10px;
+                }
+                .profile-card-3 i {
+                    display: inline-block;
+                    font-size: 16px;
+                    color: #232323;
+                    text-align: center;
+                    border: 1px solid #232323;
+                    width: 30px;
+                    height: 30px;
+                    line-height: 30px;
+                    border-radius: 50%;
+                    margin: 0 5px;
+                }
+                .profile-card-3 .icon-block {
+                    float: left;
+                    width: 100%;
+                    margin-top: 15px;
+                }
+                .profile-card-3 .icon-block a {
+                    text-decoration: none;
+                }
+                .profile-card-3 i:hover {
+                    background-color: #232323;
+                    color: #fff;
+                    text-decoration: none;
+                }
+            }
+        }
+        //FIn de Our Team
+        // News
+        #latestupdate {
+            h3 {
+                letter-spacing: 0.8vh;
+            }
+            .card {
+                margin: 3vh;
+                box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+                margin-bottom: 4vh;
+            }
+            button {
+                padding: 2vh, 0, 0, 2vh;
+                margin-bottom: 10vh;
+            }
+        }
+        // Fin de News
+        // Socials
+        #socialtitle {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 200px;
+            font-weight: bolder;
+            opacity: 0.04;
+            padding-top: 5vh;
+            margin-bottom: 0;
+            padding-bottom: -10vh;
+        }
+        .socials {
+            height: 500px;
+        }
+        .card-img-top {
+            z-index: 3000;
+        }
+        .card-body {
+            background-color: white;
+        }
+        .card-text {
+            color: #66d0ff;
+            font-size: 1.5em;
+
+            #At_insta {
+                color: black;
+                font-size: 0.6em;
+            }
+        }
+        .facebook {
+            height: 50%;
+
+            .fbimg {
+                padding-top: 4vh;
+            }
+        }
+    }
+    // Fin de socials
+    //Footer
+    //Footernav
+    .footer {
+        background-color: black;
+        color: white;
+        height: auto;
+        ul {
+            list-style: none;
+            padding-top: 4vh;
+            line-height: 4vh;
+        }
+        // Fin de footernav
+        // Footer bottom
+        .newsletter {
+            .design {
+                color: #a0a0a0;
+                padding-top: 2vh;
+            }
+            .newslettertitle {
+                padding-left: 4vh;
+                color: #a0a0a0;
+                font-size: 1.5em;
+            }
+            #mailborder {
+                .btn-circle.btn-lg {
+                    width: 2vh;
+                    height: 2.5vh;
+                    font-size: 18px;
+                    border-radius: 25px;
+                }
+                .btn-success {
+                    background-color: #00b0ff;
+                    border-color: #00b0ff;
+                }
+                .mail {
+                    background-color: transparent !important;
+                    border: none;
+                    color: #a3a3a3;
+                }
+                .fa-envelope {
+                    color: #a3a3a3;
+                    padding-left: 4vh;
+                }
+                //Fin de footer
+            }
+        }
+    }
+}

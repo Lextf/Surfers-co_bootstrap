@@ -1,0 +1,421 @@
+html {
+  overflow-x: hidden;
+}
+
+html body {
+  background-image: url(./images/Hero.jpg);
+  height: auto;
+  background-repeat: no-repeat;
+}
+
+html body #hero header .bg-light {
+  background-color: transparent !important;
+}
+
+html body #hero header .bg-light .container .navbar-brand {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+  font-weight: bolder;
+}
+
+html body #hero header .bg-light .container .nav-item a {
+  font-family: 'Monserrat', sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+html body #hero header .bg-light .container .navbar-collapse {
+  padding-left: 18vh;
+}
+
+html body #hero header .bg-light .container .navbar-text ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  list-style: none;
+  width: 30%;
+}
+
+html body #hero header .bg-light .container .navbar-text ul i {
+  margin: 10px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  font-size: 1.1em;
+}
+
+html body #hero header .bg-light .container .navbar-text ul .fa-facebook-f {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+html body #hero header #bigtitle {
+  font-family: 'Playfair Display', serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 10vh;
+}
+
+html body #hero header #bigtitle #title {
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+html body #hero header #bigtitle #subtitle {
+  color: white;
+  font-size: 1.2em;
+  letter-spacing: 1px;
+}
+
+html body .container .col-10 {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 0;
+  margin-top: 15vh;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+html body .container .col-10 #boardname {
+  text-align: left;
+  padding-top: 3vh;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+html body .container .col-10 #rating .fas {
+  color: #ffd900;
+  padding-bottom: 5vh;
+}
+
+html body .container .col-10 #buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 3vh;
+  border-bottom: #a0a0a0;
+  padding: 0;
+}
+
+html body .container .col-10 #buttons ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  width: 70%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0;
+}
+
+html body .container .col-10 #price p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  padding: 2vh;
+  padding-left: 0;
+  padding-top: 4.3vh;
+  font-size: 2em;
+}
+
+html body #aboutus #aboutustitle {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 200px;
+  font-weight: bolder;
+  opacity: 0.04;
+  padding-top: 5vh;
+  margin-bottom: 0;
+  padding-bottom: -10vh;
+}
+
+html body #aboutus #divabsolute {
+  position: relative;
+}
+
+html body #aboutus #divabsolute #textaboutus {
+  position: absolute;
+  top: 50%;
+  background-color: white;
+  padding-right: 8vh;
+}
+
+html body #aboutus #divabsolute #textaboutus h3 {
+  padding-top: 10vh;
+}
+
+html body #aboutus #divabsolute #textaboutus p {
+  font-family: 'Playfair Display';
+  font-size: 1.5em;
+}
+
+html body #aboutus #divabsolute #textaboutus p a {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.8em;
+}
+
+html body #aboutus #divabsolute #absoluteimage {
+  position: absolute;
+  left: 105%;
+  top: 45%;
+}
+
+html body #ourteam {
+  padding-top: 400px;
+}
+
+html body #ourteam h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 200px;
+  font-weight: bolder;
+  opacity: 0.04;
+  padding-top: 5vh;
+  margin-bottom: 0;
+  padding-bottom: -10vh;
+}
+
+html body #ourteam #cards {
+  margin-bottom: 20vh;
+}
+
+html body #ourteam #cards .profile-card-3 {
+  font-family: 'Open Sans', Arial, sans-serif;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+  height: 368px;
+  border: none;
+}
+
+html body #ourteam #cards .profile-card-3 .background-block {
+  float: left;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+html body #ourteam #cards .profile-card-3 .background-block .background {
+  width: 100%;
+  vertical-align: top;
+  opacity: 0.9;
+  -webkit-filter: blur(0.5px);
+  filter: blur(0.5px);
+  -webkit-transform: scale(1.8);
+  transform: scale(2.8);
+}
+
+html body #ourteam #cards .profile-card-3 .card-content {
+  width: 100%;
+  padding: 15px 25px;
+  color: #232323;
+  float: left;
+  background: #efefef;
+  height: 50%;
+  border-radius: 0 0 5px 5px;
+  position: relative;
+  z-index: 9999;
+}
+
+html body #ourteam #cards .profile-card-3 .card-content h2 {
+  color: #66d0ff;
+}
+
+html body #ourteam #cards .profile-card-3 .card-content h2 small {
+  color: #a3a3a3;
+}
+
+html body #ourteam #cards .profile-card-3 .card-content .location-block {
+  color: #a3a3a3;
+}
+
+html body #ourteam #cards .profile-card-3 .card-content::before {
+  content: '';
+  background: #efefef;
+  width: 120%;
+  height: 100%;
+  left: 11px;
+  bottom: 51px;
+  position: absolute;
+  z-index: -1;
+  -webkit-transform: rotate(-13deg);
+          transform: rotate(-13deg);
+}
+
+html body #ourteam #cards .profile-card-3 .profile {
+  border-radius: 50%;
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  max-width: 100px;
+  opacity: 1;
+  -webkit-box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+          box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+  border: 2px solid white;
+  -webkit-transform: translate(-50%, 0%);
+  transform: translate(-50%, 0%);
+  z-index: 99999;
+}
+
+html body #ourteam #cards .profile-card-3 h2 {
+  margin: 0 0 5px;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+html body #ourteam #cards .profile-card-3 h2 small {
+  display: block;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+html body #ourteam #cards .profile-card-3 i {
+  display: inline-block;
+  font-size: 16px;
+  color: #232323;
+  text-align: center;
+  border: 1px solid #232323;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+
+html body #ourteam #cards .profile-card-3 .icon-block {
+  float: left;
+  width: 100%;
+  margin-top: 15px;
+}
+
+html body #ourteam #cards .profile-card-3 .icon-block a {
+  text-decoration: none;
+}
+
+html body #ourteam #cards .profile-card-3 i:hover {
+  background-color: #232323;
+  color: #fff;
+  text-decoration: none;
+}
+
+html body #latestupdate h3 {
+  letter-spacing: 0.8vh;
+}
+
+html body #latestupdate .card {
+  margin: 3vh;
+  -webkit-box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+          box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+  margin-bottom: 4vh;
+}
+
+html body #latestupdate button {
+  padding: 2vh, 0, 0, 2vh;
+  margin-bottom: 10vh;
+}
+
+html body #socialtitle {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 200px;
+  font-weight: bolder;
+  opacity: 0.04;
+  padding-top: 5vh;
+  margin-bottom: 0;
+  padding-bottom: -10vh;
+}
+
+html body .socials {
+  height: 500px;
+}
+
+html body .card-img-top {
+  z-index: 3000;
+}
+
+html body .card-body {
+  background-color: white;
+}
+
+html body .card-text {
+  color: #66d0ff;
+  font-size: 1.5em;
+}
+
+html body .card-text #At_insta {
+  color: black;
+  font-size: 0.6em;
+}
+
+html body .facebook {
+  height: 50%;
+}
+
+html body .facebook .fbimg {
+  padding-top: 4vh;
+}
+
+html .footer {
+  background-color: black;
+  color: white;
+  height: auto;
+}
+
+html .footer ul {
+  list-style: none;
+  padding-top: 4vh;
+  line-height: 4vh;
+}
+
+html .footer .newsletter .design {
+  color: #a0a0a0;
+  padding-top: 2vh;
+}
+
+html .footer .newsletter .newslettertitle {
+  padding-left: 4vh;
+  color: #a0a0a0;
+  font-size: 1.5em;
+}
+
+html .footer .newsletter #mailborder .btn-circle.btn-lg {
+  width: 2vh;
+  height: 2.5vh;
+  font-size: 18px;
+  border-radius: 25px;
+}
+
+html .footer .newsletter #mailborder .btn-success {
+  background-color: #00b0ff;
+  border-color: #00b0ff;
+}
+
+html .footer .newsletter #mailborder .mail {
+  background-color: transparent !important;
+  border: none;
+  color: #a3a3a3;
+}
+
+html .footer .newsletter #mailborder .fa-envelope {
+  color: #a3a3a3;
+  padding-left: 4vh;
+}
+/*# sourceMappingURL=style.css.map */
